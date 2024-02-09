@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  height: 400px;
+  background: rgb(179, 179, 179);
+  display: flex;
+  /* justify-content: space-around; */
+  /* justify content is main axis */
+  /* flex-basis: 50%; */
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.box {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  background: rgb(100, 152, 207);
+}
+/*
+.box.four {
+  height: 300px;
+  align-self: flex-end; 
+}
+.one {
+  height: 100px;
+}
+.two {
+  height: 150px;
+}
+.three {
+  height: 200px;
+  flex-grow: 1;
+}
+.five {
+  height: 50px;
+  flex-grow: 5;
+}
+
+
+*/

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid black;
+  width: 1000px;
+  margin: 80px auto;
+  line-height: 2;
+  position: relative;
+}
+.sale {
+  padding: 3px 20px;
+  background: red;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* .container header {
+  position: relative;
+} */
+.main-heading {
+  text-align: center;
+  background-color: rgb(212, 212, 212);
+}
+.price {
+  font-size: 40px;
+}
+.shipping {
+  text-transform: uppercase;
+  color: gray;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+.info-link {
+  color: black;
+}
+.info-link:hover {
+  text-decoration: none;
+  font-weight: 300;
+}
+.profuct-head {
+  font-weight: bold;
+  text-transform: uppercase;
+  flex-grow: 1;
+  margin: 20px;
+}
+.btn {
+  border: 2px solid black;
+  background: #000;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  display: inline-block;
+}
+.one {
+  background: #000;
+}
+.two {
+  background: yellow;
+}
+.three {
+  background: gray;
+}
+.four {
+  background: green;
+}
+.five {
+  background-color: red;
+}
+.six {
+  background: purple;
+}
+.pro-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article {
+  flex-grow: 1;
+}

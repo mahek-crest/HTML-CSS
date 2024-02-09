@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  table {
+    /* border: 1px solid #5a5a5a; */
+    border-collapse: collapse;
+    margin-top: 100px;
+  }
+
+  td,
+  th {
+    padding: 16px 24px;
+    /* border: 1px solid #5a5a5a; */
+    text-align: left;
+  }
+
+  thead th {
+    background-color: #099268;
+    color: #fff;
+    width: 25%;
+  }
+
+  tr:nth-child(odd) {
+    background: #dee2e6;
+  }
+
+  tr:nth-child(even) {
+    background: #f1f3f5;
+  }
+</style>
+
+<body>
+  <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>Chairs</th>
+          <th>The Laid Back</th>
+          <th>The worker Bee</th>
+          <th>The Chair 4/2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Width</th>
+          <td>80 cm</td>
+          <td>60 cm</td>
+          <td>120 cm</td>
+        </tr>
+        <tr>
+          <th>Height</th>
+          <td>100 cm</td>
+          <td>110 cm</td>
+          <td>90 cm</td>
+        </tr>
+        <tr>
+          <th>Depth</th>
+          <td>80 cm</td>
+          <td>60 cm</td>
+          <td>120 cm</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

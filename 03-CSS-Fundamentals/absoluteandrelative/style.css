@@ -1,0 +1,33 @@
+.parent {
+  height: 500px;
+  width: 500px;
+  border: 2px black solid;
+  background: yellowgreen;
+  position: relative;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: 2px white solid;
+}
+.one {
+  background: red;
+  position: absolute;
+  left: 100px;
+}
+.two {
+  background: green;
+  position: absolute;
+  right: 30px;
+}
+.three {
+  background: blue;
+  position: absolute;
+  right: 0;
+}
+
+/* position: relative
+Position an element based on its current position without changing layout.
+
+position: absolute
+Position an element based on its closest positioned ancestor position. */
