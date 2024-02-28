@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Webpage including forms </title>
+</head>
+
+<body>
+  <section>
+    <div class="section-head">
+      <h2>Webpage including Forms</h2>
+      <p>Contains all the tags associated with forms </p>
+    </div>
+    <div>
+      <form>
+        <fieldset>
+          <legend class="legend"> Survey </legend>
+          <!-- --- -->
+          <div class="form-field">
+            <label for="name">Name </label>
+            <input id="name" type="text">
+          </div>
+          <!-- --- -->
+          <div class="form-field">
+            <label for="email">Email </label>
+            <input id="email" type="email">
+          </div>
+          <!-- --- -->
+          <div class="form-field">
+            <label for="gender">Gender </label>
+            <input type="radio" name="gender" id="opt-female" class="opt">Female
+            <input type="radio" name="gender" id="opt-male" class="opt">Male
+          </div>
+          <!-- --- -->
+          <div class="form-field">
+            <label for="year">College Year </label>
+            <select id="year" class="options">
+              <option value="1">Year 1</option>
+              <option value="2">Year 2</option>
+              <option value="3">Year 3</option>
+              <option value="4">Year 4</option>
+            </select>
+          </div>
+
+          <!-- --- -->
+          <div class="form-field">
+            <label for="birthdate">DOB</label>
+            <input class="birthday-field" type="date" name="birthdate" id="birthdate">
+          </div>
+
+          <!-- --- -->
+          <div class="form-field">
+            <label for="age">Age</label>
+            <input type="number" name="age" min="10" max="60">
+          </div>
+
+          <!-- --- -->
+          <div class="form-field">
+            <label for="experience">Experience </label><br />
+            <textarea class="text-area" name="experience" id="exp-textarea" cols="30" rows="7"></textarea>
+          </div>
+
+          <!-- --- -->
+          <div class="form-field">
+            <label for="profile">Upload picture</label><br />
+            <input class="profile-field" type="file" name="profile" id="">
+          </div>
+
+          <!-- --- -->
+          <div class="form-field">
+            <label for="terms">Do you agree with terms and conditions ?</label>
+            <input class="terms-field" type="checkbox" name="terms" id="terms">Agree
+          </div>
+
+          <!-- --- -->
+          <div class="form-field ">
+            <input class="btn-submit " type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
