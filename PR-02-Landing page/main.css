@@ -1,0 +1,30 @@
+.main {
+  padding: 9rem 12rem;
+  background: linear-gradient(#d33c3c, rgb(239, 154, 154), #fff);
+  /* width: 100%; */
+}
+.main-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-right img {
+  height: 30rem;
+  width: auto;
+}
+
+.main-left {
+  margin: 5.5rem 0;
+  padding: 0 10rem;
+}
+.main-left-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.main-left-heading span {
+  color: #fff;
+}
+.main-left-para {
+  font-size: 1.6rem;
+}

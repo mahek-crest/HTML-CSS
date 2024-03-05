@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #d33c3c;
+}
+.nav-items-cont {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  padding: 0 1rem;
+  font-size: larger;
+  color: #fff;
+}
+.nav-item {
+  list-style-type: none;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
